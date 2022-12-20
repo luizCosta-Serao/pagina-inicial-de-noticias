@@ -114,10 +114,12 @@
  }
 
  /*ESTILIZANDO A PAGE-FUTURE-WEB*/
- .page-future-web {
-  font-size: 2.5rem;
+ .page-future-web h1 {
+  font-size: 4rem;
   color: hsl(240, 100%, 5%);
   max-width: 350px;
+  width: 100%;
+  position: relative;
  }
 
 /*ESTILIZANDO O P DO PAGE-READ-MORE*/
@@ -141,4 +143,43 @@
   font-size: .875rem;
   letter-spacing: 3px;
   margin-top: 3rem;
+ }
+
+ /*DEFININDO LAYOUT DOS ELEMENTOS*/
+ .others {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+ }
+
+ .others li {
+  display: flex;
+  gap: 1rem;
+ }
+
+ /*DEFININDO LARGURA MÁXIMA DA IMG*/
+ .others li > img {
+  max-width: 100px;
+ }
+
+ /*ESTILIZAÇÃO DO H1*/
+ .others .others-text h1 {
+  color: hsl(233, 8%, 79%);
+  font-weight: 700;
+ }
+
+ /*ESTILIZAÇÃO DO H2*/
+ .others .others-text h2 {
+  color: hsl(240, 100%, 5%);
+  font-size: 1.125rem;
+  margin-top: .7rem;
+ }
+
+ /*ESTILIZAÇÃO DO P*/
+ .others .others-text p {
+  color: hsl(236, 13%, 42%);
+  font-size: .875rem;
+  line-height: 1.5;
+  max-width: 210px;
+  margin-top: .5rem;
  }
