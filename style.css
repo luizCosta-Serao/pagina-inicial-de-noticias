@@ -57,6 +57,11 @@
   color: hsl(240, 100%, 5%);
  }
 
+ /*APLICANDO HOVER NO LINK*/
+ .header .menu-nav ul li a:hover {
+  color: hsl(5, 85%, 63%);
+ }
+
  /*DEFININDO DISPLAY GRID PARA SECTION PAGE*/
 .page {
   display: grid;
@@ -94,7 +99,13 @@
  .page-new li h2 {
   font-size: 1.125rem;
   margin-top: 2rem;
+  cursor: pointer;
   color:  hsl(36, 100%, 99%);
+ }
+
+ /*APLICANDO HOVER NO H2*/
+ .page-new li h2:hover {
+  color: hsl(35, 77%, 62%);
  }
 
  /*ESTILIZANDO O P E DEFININDO WIDTH MÁXIMO*/
@@ -144,6 +155,11 @@
   margin-top: 3rem;
  }
 
+ /*APLICANDO HOVER NO LINK*/
+ .page-read-more a:hover {
+  background-color: hsl(240, 100%, 5%);
+ }
+
  /*DEFININDO LAYOUT DOS ELEMENTOS*/
  .others {
   display: flex;
@@ -172,6 +188,11 @@
   color: hsl(240, 100%, 5%);
   font-size: 1.125rem;
   margin-top: .7rem;
+  cursor: pointer;
+ }
+
+ .others .others-text h2:hover {
+  color: hsl(5, 85%, 63%);
  }
 
  /*ESTILIZAÇÃO DO P*/
