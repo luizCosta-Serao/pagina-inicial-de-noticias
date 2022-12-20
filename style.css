@@ -246,8 +246,22 @@
   .button-menu {
     display: block;
     border: none;
+    position: relative;
+    top: 10px;
     background-color: transparent;
     cursor: pointer;
+    background-image: url("./assets/images/icon-menu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    transition: all .5s;
+  }
+
+  .button-menu.active {
+    background-image: url("./assets/images/icon-menu-close.svg");
+    background-size: contain;
+    width: 35px;
   }
 
   .menu-nav ul {
