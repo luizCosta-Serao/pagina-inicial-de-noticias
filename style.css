@@ -24,3 +24,35 @@
   display: block;
   width: 100%;
  }
+
+ /*DEFININDO TAMANHO MÁXIMO DE DACA CONTAINER DE CONTEÚDO*/
+ .container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+ }
+
+ /*STYLE DO HEADER*/
+ .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0 2rem 0;
+ }
+
+ /*DEFININDO WIDTH MÁXIMO DA LOGO*/
+ .header > img {
+  max-width: 50px;
+ }
+
+ /*DEFININDO O LAYOUT DO MENU COM DISPLAY FLEX*/
+ .header .menu-nav ul {
+  display: flex;
+  gap: 2rem;
+ }
+
+ /*ESTILIZANDO CADA LINK DO MENU*/
+ .header .menu-nav ul li a {
+  font-weight: 400;
+  color: hsl(240, 100%, 5%);
+ }
