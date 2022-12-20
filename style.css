@@ -27,7 +27,7 @@
 
  /*DEFININDO TAMANHO MÁXIMO DE DACA CONTAINER DE CONTEÚDO*/
  .container {
-  max-width: 1440px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
  }
@@ -75,34 +75,70 @@
   background-size: cover;
  }
 
+ /*DEFININDO LAYOUT DA PAGE-NEW*/
  .page-new {
   grid-column: 3 / 4;
   grid-row: 1 / -1;
   background-color: hsl(240, 100%, 5%);
   padding: 1.5rem 1rem;
-  height: 480px;
+  height: 500px;
  }
 
+ /*ESTILIZANDO O H1*/
  .page-new > h1 {
   color: hsl(35, 77%, 62%);
   font-size: 2rem;
  }
 
+ /*ESTILIZANDO O H2*/
  .page-new li h2 {
   font-size: 1.125rem;
   margin-top: 2rem;
   color:  hsl(36, 100%, 99%);
  }
 
+ /*ESTILIZANDO O P E DEFININDO WIDTH MÁXIMO*/
  .page-new li p {
+  line-height: 1.5;
   margin-top: .5rem;
   font-size: .875rem;
   color: hsl(233, 8%, 79%);
   max-width: 280px;
  }
 
+ /*INSERINDO BORDAS EM BAIXO DOS DOIS PRIMEIROS LIs*/
  .page-new li:nth-of-type(1),
  .page-new li:nth-of-type(2) {
   border-bottom: 1px solid hsl(236, 13%, 42%);
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
+ }
+
+ /*ESTILIZANDO A PAGE-FUTURE-WEB*/
+ .page-future-web {
+  font-size: 2.5rem;
+  color: hsl(240, 100%, 5%);
+  max-width: 350px;
+ }
+
+/*ESTILIZANDO O P DO PAGE-READ-MORE*/
+ .page-read-more p {
+  color: hsl(236, 13%, 42%);
+  max-width: 370px;
+  margin-top: .5rem;
+  line-height: 1.5;
+ }
+
+ /*ESTILIZANDO O LINK DA PAGE-READ-MORE*/
+ .page-read-more a {
+  color: hsl(36, 100%, 99%);
+  background-color: hsl(5, 85%, 63%);
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  font-weight: 600;
+  font-size: .875rem;
+  letter-spacing: 3px;
+  margin-top: 3rem;
  }
